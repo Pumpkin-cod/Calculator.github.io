@@ -1,0 +1,40 @@
+.main {
+  position: absolute;
+  top: -20%;
+  left: 20%;
+  transform: translate(50%, 50%);
+  background: rgb(214, 214, 214);
+  padding: 10px;
+}
+.container {
+  width: 315px;
+  height: 370px;
+  margin: 100px auto;
+  border-radius: 50px;
+  background: rgb(214, 214, 214);
+  box-shadow: 5px 5px 10px #b6a9a9, -5px -5px -10px #ffffff;
+}
+
+.button {
+  width: 70px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  padding: 10px;
+  background: cyan;
+}
+
+.textview {
+  width: 290px;
+  height: 50px;
+  font-size: 25px;
+  margin: 5px;
+  padding: 5px;
+  background: rgba(8, 206, 206, 0.562);
+}
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to left, orange, grey);
+}
